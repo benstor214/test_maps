@@ -1,0 +1,3 @@
+#!/bin/bash
+
+valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./bsq ./maps/anaxial_map ./maps/error_map ./maps/full_map ./maps/IanMakefile ./maps/map42 ./maps/map69 ./maps/map_from_mirror_hell ./maps/non_printable ./maps/obstructed_map ./maps/wrong_char_first_place ./maps/wrong_chars ./maps/bad_header ./maps/empty_map ./maps/file.txt ./maps/generate_map.pl ./maps/map666 ./maps/map_from_hell ./maps/neg_header ./maps/null_map ./maps/shorty ./maps/wrong_char_last_place > garbage
